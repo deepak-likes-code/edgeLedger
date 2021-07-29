@@ -1,0 +1,35 @@
+.navbar {
+  flex-direction: column;
+  height: 120px;
+  padding: 20px;
+}
+
+.navbar a {
+  padding: 10px 10px;
+  margin: 5px;
+}
+
+.hero .content h1 {
+  padding: 0 10px;
+}
+
+.flex-items,
+.flex-columns .row,
+.flex-columns.flex-reverse .row {
+  flex-direction: column;
+}
+
+.flex-grid .column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+#teams img {
+  width: 80%;
+}
+
+/* Blog Page */
+
+.hero.blog > .content h1 {
+  margin-bottom: 0px;
+}

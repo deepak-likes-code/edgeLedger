@@ -1,0 +1,12 @@
+.flex-grid .column {
+  flex: 50%;
+  max-width: 50%;
+}
+
+.flex-items img {
+  width: 70%;
+}
+.flex-items {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
